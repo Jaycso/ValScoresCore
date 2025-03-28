@@ -1,0 +1,93 @@
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\WinFormsApp1\bin\Debug\net8.0-windows\ValScoresCore.exe
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\WinFormsApp1\bin\Debug\net8.0-windows\ValScoresCore.deps.json
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\WinFormsApp1\bin\Debug\net8.0-windows\ValScoresCore.runtimeconfig.json
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\WinFormsApp1\bin\Debug\net8.0-windows\ValScoresCore.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\WinFormsApp1\bin\Debug\net8.0-windows\ValScoresCore.pdb
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.splashScreen.resources
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\WinFormsApp1\obj\Debug\net8.0-windows\ValScoresCore.csproj.GenerateResource.cache
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\WinFormsApp1\obj\Debug\net8.0-windows\ValScoresCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\WinFormsApp1\obj\Debug\net8.0-windows\ValScoresCore.AssemblyInfoInputs.cache
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\WinFormsApp1\obj\Debug\net8.0-windows\ValScoresCore.AssemblyInfo.cs
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\WinFormsApp1\obj\Debug\net8.0-windows\ValScoresCore.csproj.CoreCompileInputs.cache
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\WinFormsApp1\obj\Debug\net8.0-windows\ValScoresCore.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\WinFormsApp1\obj\Debug\net8.0-windows\refint\ValScoresCore.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\WinFormsApp1\obj\Debug\net8.0-windows\ValScoresCore.pdb
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\WinFormsApp1\obj\Debug\net8.0-windows\ValScoresCore.genruntimeconfig.cache
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\WinFormsApp1\obj\Debug\net8.0-windows\ref\ValScoresCore.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.csproj.AssemblyReference.cache
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.loginScreen.resources
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.Properties.Resources.resources
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.splashScreen.resources
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.csproj.GenerateResource.cache
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.AssemblyInfoInputs.cache
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.AssemblyInfo.cs
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.csproj.CoreCompileInputs.cache
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\refint\ValScoresCore.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.pdb
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\ValScoresCore.exe
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\ValScoresCore.deps.json
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\ValScoresCore.runtimeconfig.json
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\ValScoresCore.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\ValScoresCore.pdb
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\EntityFramework.SqlServer.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\EntityFramework.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\System.Data.SQLite.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\System.Data.SQLite.EF6.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\runtimes\win-x86\native\SQLite.Interop.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScore.9BBBDE66.Up2Date
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.genruntimeconfig.cache
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ref\ValScoresCore.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\val.db
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.mainForm.resources
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\val.db
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\ValScoresCore.exe
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\ValScoresCore.deps.json
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\ValScoresCore.runtimeconfig.json
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\ValScoresCore.dll
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\ValScoresCore.pdb
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\EntityFramework.SqlServer.dll
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\EntityFramework.dll
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\System.Data.SQLite.dll
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\System.Data.SQLite.EF6.dll
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\runtimes\win-x86\native\SQLite.Interop.dll
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.csproj.AssemblyReference.cache
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.loginScreen.resources
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.mainForm.resources
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.Properties.Resources.resources
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.splashScreen.resources
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.csproj.GenerateResource.cache
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.AssemblyInfoInputs.cache
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.AssemblyInfo.cs
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.csproj.CoreCompileInputs.cache
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.sourcelink.json
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScore.9BBBDE66.Up2Date
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.dll
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\refint\ValScoresCore.dll
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.pdb
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.genruntimeconfig.cache
+C:\Users\jayden\OneDrive - Isle of Man Department of Education, Sport and Culture\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ref\ValScoresCore.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.sourcelink.json
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\MessagePack.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\MessagePack.Annotations.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\Microsoft.NET.StringTools.dll
