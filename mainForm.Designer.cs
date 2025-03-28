@@ -57,6 +57,8 @@
             btnRead = new Button();
             btnClear = new Button();
             btnClearDB = new Button();
+            btnGoToTeamInfo = new Button();
+            ranking = new ColumnHeader();
             SuspendLayout();
             // 
             // lblRoundSelection
@@ -255,7 +257,7 @@
             // 
             // listView
             // 
-            listView.Columns.AddRange(new ColumnHeader[] { team, round1, round2, round3, round4, round5, points });
+            listView.Columns.AddRange(new ColumnHeader[] { team, round1, round2, round3, round4, round5, points, ranking });
             listView.Location = new Point(60, 340);
             listView.Name = "listView";
             listView.Size = new Size(722, 180);
@@ -368,6 +370,24 @@
             btnClearDB.UseVisualStyleBackColor = false;
             btnClearDB.Click += btnClearDB_Click;
             // 
+            // btnGoToTeamInfo
+            // 
+            btnGoToTeamInfo.BackColor = Color.FromArgb(48, 66, 86);
+            btnGoToTeamInfo.Font = new Font("Tahoma", 10F);
+            btnGoToTeamInfo.ForeColor = Color.FromArgb(186, 58, 70);
+            btnGoToTeamInfo.Location = new Point(787, 340);
+            btnGoToTeamInfo.Margin = new Padding(2);
+            btnGoToTeamInfo.Name = "btnGoToTeamInfo";
+            btnGoToTeamInfo.Size = new Size(95, 95);
+            btnGoToTeamInfo.TabIndex = 22;
+            btnGoToTeamInfo.Text = "Open Team Info";
+            btnGoToTeamInfo.UseVisualStyleBackColor = false;
+            btnGoToTeamInfo.Click += btnGoToTeamInfo_Click;
+            // 
+            // ranking
+            // 
+            ranking.Text = "Rank";
+            // 
             // mainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -375,6 +395,7 @@
             BackgroundImage = Properties.Resources.mainBackground;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(993, 593);
+            Controls.Add(btnGoToTeamInfo);
             Controls.Add(btnClearDB);
             Controls.Add(btnClear);
             Controls.Add(btnRead);
@@ -438,5 +459,7 @@
         private Button btnRead;
         private Button btnClear;
         private Button btnClearDB;
+        private Button btnGoToTeamInfo;
+        private ColumnHeader ranking;
     }
 }

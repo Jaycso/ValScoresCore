@@ -91,3 +91,4 @@ C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_
 C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\MessagePack.dll
 C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\MessagePack.Annotations.dll
 C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\bin\Debug\net8.0-windows\Microsoft.NET.StringTools.dll
+C:\Users\jayden\protonDrive\Other computers\JAYS-LAPTOP\Documents\Year_1\Unit_4_Programming\Assignments\A2\Code\ValScoresCore\obj\Debug\net8.0-windows\ValScoresCore.teamInfo.resources

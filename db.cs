@@ -290,5 +290,25 @@ namespace ValScoresCore
 
             connection.Close();
         }
+
+        public void updateTeamName(int teamID,  string newName)
+        {
+            connection.Open();
+
+            var command = connection.CreateCommand();
+            command.CommandText =
+                @"
+                UPDATE teams
+                SET teamName = $teamName
+                WHERE teamID = $teamID
+                ";
+
+            command.Parameters.AddWithValue("$teamName", newName);
+            command.Parameters.AddWithValue("$teamID", teamID);
+
+            command.ExecuteNonQuery();
+
+            connection.Close();
+        }
     }
 }
