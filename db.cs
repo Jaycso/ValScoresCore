@@ -21,8 +21,18 @@ namespace ValScoresCore
         internal Database()
         {
             connection = new SQLiteConnection("Data Source=val.db;Cache=Shared;Mode=ReadWrite");
+            CreateDatabaseIfNeeded();
             CreateUsersTableIfNeeded();
             CreateTeamsTableIfNeeded();
+        }
+
+        private void CreateDatabaseIfNeeded()
+        {
+            if (connection == null)
+            {
+                File.Create("./val.db");
+                connection = new SQLiteConnection("Data Source=val.db;Cache=Shared;Mode=ReadWrite");
+            }
         }
 
         private void CreateUsersTableIfNeeded()

@@ -33,6 +33,7 @@ namespace ValScoresCore
             if (uid == -1)
             {
                 MessageBox.Show($"Username '{inputUsername}' not found.");
+                return;
             }
             var password = database.getPasswordFromUID(uid);
             if (password == inputPassword)

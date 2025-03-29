@@ -11,6 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
 using static ValScoresCore.Program;
 
 namespace ValScoresCore
@@ -107,6 +108,10 @@ namespace ValScoresCore
 
         private void btnInput_Click(object sender, EventArgs e)
         {
+            if (!validateInput())
+            {
+                return;
+            }
             storeInProgram();
             writeToTable();
             enterPoints();
@@ -180,13 +185,6 @@ namespace ValScoresCore
 
         public void storeInProgram()
         {
-            string? validMsg = validEntry();
-            if (validMsg != null)
-            {
-                MessageBox.Show(validMsg);
-                return;
-            }
-
             var round = Convert.ToInt32(cboRoundSelection.Text);
             var entries = new List<(string Team, int Score, string Opponent, int OpponentScore)>
             {
@@ -206,6 +204,17 @@ namespace ValScoresCore
                     opp = entries[i].Opponent
                 };
             }
+        }
+
+        private bool validateInput()
+        {
+            string? validMsg = validEntry();
+            if (validMsg != null)
+            {
+                MessageBox.Show(validMsg);
+                return false;
+            }
+            return true;
         }
 
         public void writeToTable()
@@ -256,6 +265,21 @@ namespace ValScoresCore
             {
                 return "Ensure each team selected is unique.";
             }
+
+            if (!int.TryParse(txtSideAMatch1.Text, out int scoreA1) ||
+                !int.TryParse(txtSideAMatch2.Text, out int scoreA2) ||
+                !int.TryParse(txtSideBMatch1.Text, out int scoreB1) ||
+                !int.TryParse(txtSideBMatch2.Text, out int scoreB2))
+            {
+                Debug.WriteLine("invalid input: one or more scores are not valid integers");
+                return "Invalid score input. Please enter a valid number.";
+            }
+
+            if (scoreA1 > 100 || scoreA2 > 100 || scoreB1 > 100 || scoreB2 > 100)
+            {
+                return "Score cannot be greater than 100";
+            }
+
             return null;
         }
 
@@ -286,6 +310,7 @@ namespace ValScoresCore
 
         private void tableClear()
         {
+            if (listView.Items.Count < 4) { MessageBox.Show("Cannot clear empty table"); return; };
             for (int i = 0; i < tableItems.GetLength(1); i++)
             {
                 listView.Items[i].SubItems.Clear(); // clear listview
@@ -300,7 +325,13 @@ namespace ValScoresCore
 
         private void btnClearDB_Click(object sender, EventArgs e)
         {
-            db.clearValues();
+            var result = MessageBox.Show("Are you sure you want to clear the Database?", "Confirmation",
+                                 MessageBoxButtons.YesNo,
+                                 MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                db.clearValues();
+            }
         }
 
         public void enterPoints()
