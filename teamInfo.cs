@@ -15,14 +15,14 @@ namespace ValScoresCore
     {
         private mainForm MainForm;
         private Database db = new Database();
-        public event Action updateName;
-        public teamInfo(mainForm mainForm)
+        public event Action updateName; // declare event
+        public teamInfo(mainForm mainForm) // takes mainForm as an argument to access its data
         {
             InitializeComponent();
             MainForm = mainForm;
         }
 
-        private int[] teamIDs => MainForm.TeamMap.Keys.OrderBy(key => key).ToArray();
+        private int[] teamIDs => MainForm.TeamMap.Keys.OrderBy(key => key).ToArray(); // get local copy of teamIDs in ascending order
 
         private void populateTeamID()
         {
@@ -39,8 +39,8 @@ namespace ValScoresCore
 
         private void cboTeamSelection_SelectedIndexChanged(object sender, EventArgs e)
         {
-            var _rankings = MainForm.Rankings;
-            var _TeamMap = MainForm.TeamMap;
+            var _rankings = MainForm.Rankings; // make local copy of Rankings for single getter run
+            var _TeamMap = MainForm.TeamMap; // make local copy of TeamMap for single getter run
             string[] conversions = {"1st", "2nd", "3rd", "4th"};
             int selectedTeamId = Convert.ToInt32(cboTeamSelection.Text);
             int rank = _rankings.ContainsKey(selectedTeamId) ? _rankings[selectedTeamId] : -1;
@@ -56,7 +56,7 @@ namespace ValScoresCore
 
         private void teamInfo_FormClosed(object sender, FormClosedEventArgs e)
         {
-            updateName?.Invoke();
+            updateName?.Invoke(); // send trigger to run method in MainForm, replacing instances of previous teamName
         }
 
     }

@@ -52,13 +52,13 @@
             round4 = new ColumnHeader();
             round5 = new ColumnHeader();
             points = new ColumnHeader();
+            ranking = new ColumnHeader();
             btnInput = new Button();
             btnWrite = new Button();
             btnRead = new Button();
             btnClear = new Button();
             btnClearDB = new Button();
             btnGoToTeamInfo = new Button();
-            ranking = new ColumnHeader();
             SuspendLayout();
             // 
             // lblRoundSelection
@@ -300,6 +300,10 @@
             points.Text = "Total Points";
             points.Width = 80;
             // 
+            // ranking
+            // 
+            ranking.Text = "Rank";
+            // 
             // btnInput
             // 
             btnInput.BackColor = Color.FromArgb(48, 66, 86);
@@ -384,14 +388,11 @@
             btnGoToTeamInfo.UseVisualStyleBackColor = false;
             btnGoToTeamInfo.Click += btnGoToTeamInfo_Click;
             // 
-            // ranking
-            // 
-            ranking.Text = "Rank";
-            // 
             // mainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoSize = true;
             BackgroundImage = Properties.Resources.mainBackground;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(993, 593);

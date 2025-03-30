@@ -18,11 +18,21 @@ namespace ValScoresCore
     {
         SQLiteConnection connection;
 
-        internal Database()
+        internal Database() // runs when the class is initialized
         {
             connection = new SQLiteConnection("Data Source=val.db;Cache=Shared;Mode=ReadWrite");
+            CreateDatabaseIfNeeded();
             CreateUsersTableIfNeeded();
             CreateTeamsTableIfNeeded();
+        }
+
+        private void CreateDatabaseIfNeeded()
+        {
+            if (connection == null)
+            {
+                File.Create("./val.db");
+                connection = new SQLiteConnection("Data Source=val.db;Cache=Shared;Mode=ReadWrite");
+            }
         }
 
         private void CreateUsersTableIfNeeded()
@@ -67,7 +77,7 @@ namespace ValScoresCore
                 round5    TEXT,
                 PRIMARY KEY(teamID AUTOINCREMENT)
                 )";
-                command.ExecuteNonQuery();
+                command.ExecuteNonQuery(); // only runs if table doesnt exist
                 connection.Close();
             }
             catch (Exception ex)
@@ -87,10 +97,10 @@ namespace ValScoresCore
             command.CommandText = "SELECT teamID, teamName FROM teams;";
 
             using var reader = command.ExecuteReader();
-            while (reader.Read())
+            while (reader.Read()) // reads until end of stream
             {
-                int teamID = reader.GetInt32(0);
-                string teamName = reader.GetString(1);
+                int teamID = reader.GetInt32(0); // read from column 1
+                string teamName = reader.GetString(1); // read from column 2
                 teamMap[teamID] = teamName;
             }
 
@@ -113,12 +123,12 @@ namespace ValScoresCore
             FROM accounts
             WHERE UID = $UID
             ";
-            command.Parameters.AddWithValue("$UID", uid);
+            command.Parameters.AddWithValue("$UID", uid); // replace placeholder in SQL injection safe way
 
             using var reader = command.ExecuteReader();
             if (reader.Read())
             {
-                password = reader.GetString(0);
+                password = reader.GetString(0); // reads the first column from reader
             }
             reader.Close();
             connection.Close();
@@ -139,10 +149,10 @@ namespace ValScoresCore
             FROM accounts
             WHERE username = $username
             ";
-            command.Parameters.AddWithValue("$username", username);
+            command.Parameters.AddWithValue("$username", username); // replace placeholder in SQL injection safe way
 
             using var reader = command.ExecuteReader();
-            if (reader.Read())
+            if (reader.Read()) // only executes if data in stream
             {
                 uid = reader.GetInt32(0);
             }
@@ -168,7 +178,7 @@ namespace ValScoresCore
             using var reader = command.ExecuteReader();
             while (reader.Read())
             {
-                teamIDs.Add(reader.GetString(0));
+                teamIDs.Add(reader.GetString(0)); // returns a list of all team names in order stored in database
             }
             reader.Close();
             connection.Close();
@@ -184,7 +194,7 @@ namespace ValScoresCore
 
             try
             {
-                for (int i = 0; i < 4; i++)
+                for (int i = 0; i < 4; i++) // to add scores for all teams
                 {
 
                     var command = connection.CreateCommand();
@@ -200,9 +210,9 @@ namespace ValScoresCore
 
                     for (var x = 0; x < 5; x++)
                     {
-                        command.Parameters.AddWithValue($"$round{x + 1}", SerializeToString(tableItems[x, i]));
+                        command.Parameters.AddWithValue($"$round{x + 1}", SerializeToString(tableItems[x, i])); // need to serialize the struct for compatability with db
                     }
-                    command.Parameters.AddWithValue("$teamID", i + 1);
+                    command.Parameters.AddWithValue("$teamID", i + 1); // replace placeholder in SQL injection safe way
                     Debug.WriteLine($"Executing SQL: {command.CommandText}");
                     command.ExecuteNonQuery();
                 }
@@ -212,7 +222,7 @@ namespace ValScoresCore
             catch (Exception ex)
             {
                 Debug.WriteLine($"Error: {ex.Message}");
-                transaction.Rollback();
+                transaction.Rollback(); 
                 throw;
             }
             finally
@@ -225,7 +235,7 @@ namespace ValScoresCore
 
         private string SerializeToString(tableItem item)
         {
-            return item.ToString();
+            return item.ToString(); // using an overide, ToString method is defined within struct
         }
 
         public tableItem[,] GetScores()
@@ -247,7 +257,7 @@ namespace ValScoresCore
             {
                 for (int round = 0; round < 5; round++)
                 {
-                    if (reader.IsDBNull(round))
+                    if (reader.IsDBNull(round)) // if value is empty, return empty struct. allows for non-completed data
                     {
                         tableItems[round, row] = new tableItem();
                     }
@@ -268,7 +278,7 @@ namespace ValScoresCore
 
         private tableItem DeserializeFromString(string data)
         {
-            return tableItem.FromString(data);
+            return tableItem.FromString(data); // using an overide, FromString method is defined within struct
         }
 
         public void clearValues()
@@ -303,7 +313,7 @@ namespace ValScoresCore
                 WHERE teamID = $teamID
                 ";
 
-            command.Parameters.AddWithValue("$teamName", newName);
+            command.Parameters.AddWithValue("$teamName", newName); // replace placeholder in SQL injection safe way
             command.Parameters.AddWithValue("$teamID", teamID);
 
             command.ExecuteNonQuery();

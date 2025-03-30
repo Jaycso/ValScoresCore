@@ -141,6 +141,9 @@
             Controls.Add(lblTeamSelection);
             Controls.Add(cboTeamSelection);
             DoubleBuffered = true;
+            MaximizeBox = false;
+            MaximumSize = new Size(720, 512);
+            MinimumSize = new Size(720, 512);
             Name = "teamInfo";
             FormClosed += teamInfo_FormClosed;
             Load += teamInfo_Load;

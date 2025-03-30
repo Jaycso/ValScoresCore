@@ -32,6 +32,8 @@
             btnLogin = new Button();
             btnForgotPassword = new Button();
             txtPassword = new TextBox();
+            lblUsernameHint = new Label();
+            lblPasswordHint = new Label();
             SuspendLayout();
             // 
             // txtUsername
@@ -69,6 +71,7 @@
             btnForgotPassword.Size = new Size(185, 31);
             btnForgotPassword.TabIndex = 3;
             btnForgotPassword.UseVisualStyleBackColor = false;
+            btnForgotPassword.Click += btnForgotPassword_Click;
             // 
             // txtPassword
             // 
@@ -81,6 +84,28 @@
             txtPassword.Size = new Size(131, 22);
             txtPassword.TabIndex = 1;
             // 
+            // lblUsernameHint
+            // 
+            lblUsernameHint.AutoSize = true;
+            lblUsernameHint.FlatStyle = FlatStyle.Flat;
+            lblUsernameHint.Location = new Point(410, 259);
+            lblUsernameHint.Name = "lblUsernameHint";
+            lblUsernameHint.Size = new Size(41, 15);
+            lblUsernameHint.TabIndex = 4;
+            lblUsernameHint.Text = "admin";
+            lblUsernameHint.Visible = false;
+            // 
+            // lblPasswordHint
+            // 
+            lblPasswordHint.AutoSize = true;
+            lblPasswordHint.FlatStyle = FlatStyle.Flat;
+            lblPasswordHint.Location = new Point(410, 325);
+            lblPasswordHint.Name = "lblPasswordHint";
+            lblPasswordHint.Size = new Size(57, 15);
+            lblPasswordHint.TabIndex = 5;
+            lblPasswordHint.Text = "password";
+            lblPasswordHint.Visible = false;
+            // 
             // loginScreen
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -88,6 +113,8 @@
             BackgroundImage = Properties.Resources.loginBackground;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(996, 629);
+            Controls.Add(lblPasswordHint);
+            Controls.Add(lblUsernameHint);
             Controls.Add(txtPassword);
             Controls.Add(btnForgotPassword);
             Controls.Add(btnLogin);
@@ -106,5 +133,7 @@
         private Button btnLogin;
         private Button btnForgotPassword;
         private TextBox txtPassword;
+        private Label lblUsernameHint;
+        private Label lblPasswordHint;
     }
 }

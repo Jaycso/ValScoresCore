@@ -27,29 +27,37 @@ namespace ValScoresCore
 
         private void loginSequence()
         {
-            var inputUsername = txtUsername.Text.Trim();
+            var inputUsername = txtUsername.Text.Trim(); // remove leading and trailing whitespace
             var inputPassword = txtPassword.Text.Trim();
             var uid = database.getUidFromUsername(inputUsername);
-            if (uid == -1)
+            if (uid == -1) // stops on invalid uid
             {
                 MessageBox.Show($"Username '{inputUsername}' not found.");
+                return;
             }
             var password = database.getPasswordFromUID(uid);
             if (password == inputPassword)
             {
-                Helper.goToNext(this, new mainForm());
-            } else
+                Helper.goToNext(this, new mainForm()); // opens mainForm if login is correct
+            }
+            else
             {
                 MessageBox.Show("Invalid password.");
             }
         }
-        public int activeUser { get; }
+
         private void loginScreen_KeyDown(object sender, KeyEventArgs e)
         {
             if ((e.KeyCode == Keys.Enter))
             {
                 loginSequence();
             }
+        }
+
+        private void btnForgotPassword_Click(object sender, EventArgs e)
+        {
+            lblPasswordHint.Show(); // show hidden labels contianing username & password hints
+            lblUsernameHint.Show();
         }
     }
 }
