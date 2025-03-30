@@ -16,7 +16,7 @@ namespace ValScoresCore
 
         public static class Helper
         {
-            public static void goToNext(Form currentForm, Form nextForm)
+            public static void goToNext(Form currentForm, Form nextForm) // opens next page
             {
                 nextForm.Closed += (s, args) => currentForm.Close();
                 nextForm.Show();
