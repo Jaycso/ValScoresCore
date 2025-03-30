@@ -39,7 +39,8 @@ namespace ValScoresCore
             if (password == inputPassword)
             {
                 Helper.goToNext(this, new mainForm()); // opens mainForm if login is correct
-            } else
+            }
+            else
             {
                 MessageBox.Show("Invalid password.");
             }
@@ -51,6 +52,12 @@ namespace ValScoresCore
             {
                 loginSequence();
             }
+        }
+
+        private void btnForgotPassword_Click(object sender, EventArgs e)
+        {
+            lblPasswordHint.Show(); // show hidden labels contianing username & password hints
+            lblUsernameHint.Show();
         }
     }
 }
