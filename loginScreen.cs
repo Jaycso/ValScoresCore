@@ -59,5 +59,18 @@ namespace ValScoresCore
             lblPasswordHint.Show(); // show hidden labels contianing username & password hints
             lblUsernameHint.Show();
         }
+
+        private void btnToggleShow_Click(object sender, EventArgs e)
+        {
+            if (!txtPassword.UseSystemPasswordChar) // check if already shown
+            {
+                txtPassword.UseSystemPasswordChar = true; // toggle
+            } 
+            else
+            {
+                txtPassword.UseSystemPasswordChar = false; // toggle
+            }
+            
+        }
     }
 }

@@ -34,6 +34,7 @@
             txtPassword = new TextBox();
             lblUsernameHint = new Label();
             lblPasswordHint = new Label();
+            btnToggleShow = new Button();
             SuspendLayout();
             // 
             // txtUsername
@@ -83,6 +84,7 @@
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new Size(131, 22);
             txtPassword.TabIndex = 1;
+            txtPassword.UseSystemPasswordChar = true;
             // 
             // lblUsernameHint
             // 
@@ -106,6 +108,19 @@
             lblPasswordHint.Text = "password";
             lblPasswordHint.Visible = false;
             // 
+            // btnToggleShow
+            // 
+            btnToggleShow.BackColor = Color.FromArgb(255, 70, 84);
+            btnToggleShow.Font = new Font("Yu Gothic UI", 9F);
+            btnToggleShow.ForeColor = Color.White;
+            btnToggleShow.Location = new Point(271, 354);
+            btnToggleShow.Name = "btnToggleShow";
+            btnToggleShow.Size = new Size(91, 29);
+            btnToggleShow.TabIndex = 6;
+            btnToggleShow.Text = "Toggle Show";
+            btnToggleShow.UseVisualStyleBackColor = false;
+            btnToggleShow.Click += btnToggleShow_Click;
+            // 
             // loginScreen
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -113,6 +128,7 @@
             BackgroundImage = Properties.Resources.loginBackground;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(996, 629);
+            Controls.Add(btnToggleShow);
             Controls.Add(lblPasswordHint);
             Controls.Add(lblUsernameHint);
             Controls.Add(txtPassword);
@@ -135,5 +151,6 @@
         private TextBox txtPassword;
         private Label lblUsernameHint;
         private Label lblPasswordHint;
+        private Button btnToggleShow;
     }
 }
