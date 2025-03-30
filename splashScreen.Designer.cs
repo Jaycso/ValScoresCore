@@ -55,8 +55,10 @@
             ClientSize = new Size(484, 661);
             Controls.Add(loadingBar);
             DoubleBuffered = true;
+            MaximumSize = new Size(500, 700);
+            MinimumSize = new Size(500, 700);
             Name = "splashScreen";
-            Text = "Form1";
+            Text = "Valorant Tournament";
             ResumeLayout(false);
         }
 

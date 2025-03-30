@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ValScoresCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+360fe233230179ffdf6b8493c507f025cbe7f028")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e8532819a3e2d5ba36214bfeb685ddd0b4b78ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("ValScoresCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ValScoresCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

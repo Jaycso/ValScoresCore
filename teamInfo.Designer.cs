@@ -132,7 +132,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.teamInfoBgk;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(704, 473);
+            ClientSize = new Size(720, 512);
             Controls.Add(btnUpdate);
             Controls.Add(txtPlacement);
             Controls.Add(label3);
@@ -141,10 +141,12 @@
             Controls.Add(lblTeamSelection);
             Controls.Add(cboTeamSelection);
             DoubleBuffered = true;
+            FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximizeBox = false;
             MaximumSize = new Size(720, 512);
             MinimumSize = new Size(720, 512);
             Name = "teamInfo";
+            Text = "Team Information";
             FormClosed += teamInfo_FormClosed;
             Load += teamInfo_Load;
             ResumeLayout(false);

@@ -136,6 +136,9 @@
             Controls.Add(btnLogin);
             Controls.Add(txtUsername);
             DoubleBuffered = true;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximumSize = new Size(1012, 668);
+            MinimumSize = new Size(1012, 668);
             Name = "loginScreen";
             Text = "Login";
             KeyDown += loginScreen_KeyDown;

@@ -70,7 +70,6 @@ namespace ValScoresCore
             {
                 txtPassword.UseSystemPasswordChar = false; // toggle
             }
-            
         }
     }
 }

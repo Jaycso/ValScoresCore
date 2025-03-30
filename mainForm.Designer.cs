@@ -423,7 +423,7 @@
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Margin = new Padding(2);
             Name = "mainForm";
-            Text = "mainForm";
+            Text = "Valorant Tournament";
             Load += mainForm_Load;
             ResumeLayout(false);
             PerformLayout();
