@@ -257,7 +257,7 @@ namespace ValScoresCore
             {
                 for (int round = 0; round < 5; round++)
                 {
-                    if (reader.IsDBNull(round)) // if value is empty, return empty struct. allows for non-completed data
+                    if (reader.IsDBNull(round) || (string)reader.GetValue(round) == "") // if value is empty, return empty struct. allows for non-completed data
                     {
                         tableItems[round, row] = new tableItem();
                     }

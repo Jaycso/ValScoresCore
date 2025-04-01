@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jayden\\protonDrive\\Other computers\\JAYS-LAPTOP\\Documents\\Year_1\\Unit_4_Programming\\Assignments\\A2\\Code\\ValScoresCore\\ValScoresCore.csproj": {}
+    "C:\\Users\\jayden\\OneDrive - Isle of Man Department of Education, Sport and Culture\\Documents\\Year_1\\Unit_4_Programming\\Assignments\\A2\\Code\\Temp\\ValScoresCore\\ValScoresCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jayden\\protonDrive\\Other computers\\JAYS-LAPTOP\\Documents\\Year_1\\Unit_4_Programming\\Assignments\\A2\\Code\\ValScoresCore\\ValScoresCore.csproj": {
+    "C:\\Users\\jayden\\OneDrive - Isle of Man Department of Education, Sport and Culture\\Documents\\Year_1\\Unit_4_Programming\\Assignments\\A2\\Code\\Temp\\ValScoresCore\\ValScoresCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jayden\\protonDrive\\Other computers\\JAYS-LAPTOP\\Documents\\Year_1\\Unit_4_Programming\\Assignments\\A2\\Code\\ValScoresCore\\ValScoresCore.csproj",
+        "projectUniqueName": "C:\\Users\\jayden\\OneDrive - Isle of Man Department of Education, Sport and Culture\\Documents\\Year_1\\Unit_4_Programming\\Assignments\\A2\\Code\\Temp\\ValScoresCore\\ValScoresCore.csproj",
         "projectName": "ValScoresCore",
-        "projectPath": "C:\\Users\\jayden\\protonDrive\\Other computers\\JAYS-LAPTOP\\Documents\\Year_1\\Unit_4_Programming\\Assignments\\A2\\Code\\ValScoresCore\\ValScoresCore.csproj",
+        "projectPath": "C:\\Users\\jayden\\OneDrive - Isle of Man Department of Education, Sport and Culture\\Documents\\Year_1\\Unit_4_Programming\\Assignments\\A2\\Code\\Temp\\ValScoresCore\\ValScoresCore.csproj",
         "packagesPath": "C:\\Users\\jayden\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jayden\\protonDrive\\Other computers\\JAYS-LAPTOP\\Documents\\Year_1\\Unit_4_Programming\\Assignments\\A2\\Code\\ValScoresCore\\obj\\",
+        "outputPath": "C:\\Users\\jayden\\OneDrive - Isle of Man Department of Education, Sport and Culture\\Documents\\Year_1\\Unit_4_Programming\\Assignments\\A2\\Code\\Temp\\ValScoresCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -78,7 +78,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
